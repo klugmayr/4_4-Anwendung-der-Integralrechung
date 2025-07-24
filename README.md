@@ -18,7 +18,7 @@ $A=|\int_a^b f(x) dx |$
 
     
 
-1. Hat die Funktion $f$ im Intervall $[a,b]$ sowohl positive als auch negative Werte, so zerlegt man $[a,b]$ in Teilintervalle, so dass die Funktion in diesen Intervallen konstantes Vorzeichen hat. Es gilt$A=\int_a^cf(x)dx+|\int_c^df(x)dx|+\int_d^bf(x)dx$
-2. Für eine gerade Funktion ($f(x)=f(-x)$) gilt: $\int_{-a}^a f(x)dx = 2 \cdot \int_0^a f(x)dx$
-3. Für eine ungerade Funktion ($ f(x) = -f(-x) $) gilt: $\int_{-a}^a f(x)dx = 0$
-4. Für den Flächeninhalt zwischen den Graphen zweier Funktionen gilt. Es seien $f : [a, b] \rightarrow \mathbb{R} $ und $g : [a, b] \rightarrow \mathbb{R} $ zwei integrierbare Funktionen mit $f(x) \geq g(x) $ für alle $x\in [a,b] $ und $A$ jene Fläche, die von den Funktionsgraphen begrenzt wird. Dann gilt$A=\int_a^b (f(x)-g(x)) dx$
+1. Hat die Funktion $f$ im Intervall $[a,b]$ sowohl positive als auch negative Werte, so zerlegt man $[a,b]$ in Teilintervalle, so dass die Funktion in diesen Intervallen konstantes Vorzeichen hat. Es gilt $A=\int_a^c f(x) dx+|\int_c^d f(x) dx|+\int_d^b f(x) dx$
+2. Für eine gerade Funktion ($f(x)=f(-x)$) gilt: $\int_{-a}^a f(x) dx =2\cdot\int_0^a f(x) dx$
+3. Für eine ungerade Funktion ($ f(x =-f(-x)$) gilt: $\int_{-a}^a f(x) dx = 0$
+4. Für den Flächeninhalt zwischen den Graphen zweier Funktionen gilt. Es seien $f : [a, b] \rightarrow \mathbb{R} $ und $g : [a, b] \rightarrow \mathbb{R} $ zwei integrierbare Funktionen mit $f(x) \geq g(x)$ für alle $x\in [a,b] $ und $A$ jene Fläche, die von den Funktionsgraphen begrenzt wird. Dann gilt$A=\int_a^b (f(x)-g(x)) dx$
