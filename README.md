@@ -16,9 +16,16 @@ $A=|\int_a^b f(x) dx |$
 
 ### Bemerkung
 
-    
-
 1. Hat die Funktion $f$ im Intervall $[a,b]$ sowohl positive als auch negative Werte, so zerlegt man $[a,b]$ in Teilintervalle, so dass die Funktion in diesen Intervallen konstantes Vorzeichen hat. Es gilt $A=\int_a^c f(x) dx+|\int_c^d f(x) dx|+\int_d^b f(x) dx$
 2. Für eine gerade Funktion ( $f(x)=f(-x)$ ) gilt: $\int_{-a}^a f(x) dx =2\cdot\int_0^a f(x) dx$
 3. Für eine ungerade Funktion ( $f(x)=-f(-x)$ ) gilt: $\int_{-a}^a f(x) dx = 0$
 4. Für den Flächeninhalt zwischen den Graphen zweier Funktionen gilt. Es seien $f:[a, b]\rightarrow \mathbb{R}$ und $g:[a, b] \rightarrow\mathbb{R}$ zwei integrierbare Funktionen mit $f(x) \geq g(x)$ für alle $x\in[a,b]$ und $A$ jene Fläche, die von den Funktionsgraphen begrenzt wird. Dann gilt $A=\int_a^b (f(x)-g(x)) dx$
+
+#### Beispiele
+
+1. Berechnen Sie den Flächeninhalt jenes Flächenstücks, das von den Graphen $f(x)=x+1$ und $g(x)=\frac{1}{2}x^2-3$ begrenzt wird. (Lösung: 18 FE)
+2. Eine Parabel 4. Ordnung hat in $W(0|0)$ einen Wendepunkt mit der x-Achse als Wendetangente und im
+
+Punkt $N(-4|0)$  einen weiteren Schnittpunkt mit der x-Achse. Die Fläche, die die Kurve mit der x-Achse
+
+begrenzt, hat den Flächeninhalt 12,8. Bestimmen Sie die Funktionsgleichung und fertigen Sie eine Skizze an!
