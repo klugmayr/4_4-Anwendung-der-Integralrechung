@@ -24,8 +24,4 @@ $A=|\int_a^b f(x) dx |$
 #### Beispiele
 
 1. Berechnen Sie den Flächeninhalt jenes Flächenstücks, das von den Graphen $f(x)=x+1$ und $g(x)=\frac{1}{2}x^2-3$ begrenzt wird. (Lösung: 18 FE)
-2. Eine Parabel 4. Ordnung hat in $W(0|0)$ einen Wendepunkt mit der x-Achse als Wendetangente und im
-
-Punkt $N(-4|0)$  einen weiteren Schnittpunkt mit der x-Achse. Die Fläche, die die Kurve mit der x-Achse
-
-begrenzt, hat den Flächeninhalt 12,8. Bestimmen Sie die Funktionsgleichung und fertigen Sie eine Skizze an!
+2. Eine Parabel 4. Ordnung hat in $W(0|0)$ einen Wendepunkt mit der x-Achse als Wendetangente und im Punkt $N(-4|0)$  einen weiteren Schnittpunkt mit der x-Achse. Die Fläche, die die Kurve mit der x-Achse begrenzt, hat den Flächeninhalt 12,8. Bestimmen Sie die Funktionsgleichung und fertigen Sie eine Skizze an!(Lösung: $f(x)=-\frac{1}{4}x^4-x^3$)
