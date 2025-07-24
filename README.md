@@ -28,8 +28,11 @@ $A=|\int_a^b f(x) dx |$
 
 ## Volumsberechnung
 
-1. Berechnung des Volumens mittels VolumselementenAnalog zu der Berechnung von Flächenmaÿen einer ebenen Figur kann auch das Raummaÿ mit Hilfe von Volumselementen berechnet werden.
+1. Berechnung des Volumens mittels VolumselementenAnalog zu der Berechnung von Flächenmaßen einer ebenen Figur kann auch das Raummaß mit Hilfe von Volumselementen berechnet werden.
+
+
    1. Beispiel: **Volumen einer Kugel**
    2. Beispiel: **Volumen einer regelmäßigen vierseitigen Pyramide**
 2. Rotationsvolumen
+
    1. Rotationskörper entstehen, wenn ein Kurvenstück um eine Achse, im Allgemeinen die x- bzw. y-Achse, die beide in der selben Ebene liegen, gedreht wird.
