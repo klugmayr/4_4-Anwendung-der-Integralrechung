@@ -1,6 +1,6 @@
 ## Flächenberechnung
 
-Mit Hilfe des bereits eingeführten Intgralbegriffs lässt sich das Flächenmaß folgendermaßen defnieren.
+Mit Hilfe des bereits eingeführten Intgralbegriffs lässt sich das Flächenmaß folgendermaßen definieren.
 
 ### Definition
 
@@ -28,11 +28,61 @@ $A=|\int_a^b f(x) dx |$
 
 ## Volumsberechnung
 
-1. Berechnung des Volumens mittels VolumselementenAnalog zu der Berechnung von Flächenmaßen einer ebenen Figur kann auch das Raummaß mit Hilfe von Volumselementen berechnet werden.
+Berechnung des Volumens mittels VolumselementenAnalog zu der Berechnung von Flächenmaßen einer ebenen Figur kann auch das Raummaß mit Hilfe von Volumselementen berechnet werden.
+
+1. Beispiel: **Volumen einer Kugel**
+2. Beispiel: **Volumen einer regelmäßigen vierseitigen Pyramide**
+
+Rotationsvolumen
+
+1. Rotationskörper entstehen, wenn ein Kurvenstück um eine Achse, im Allgemeinen die x- bzw. y-Achse, die beide in der selben Ebene liegen, gedreht wird.
+
+#### Rotation um die x-Achse
+
+Über einem Intervall $[a, b]$ ist eine stetige Funktion $f(x)$ gegeben. Der Graph der Funktion erzeugt bei Rotation um die x-Achse einen Rotationskörper. Diesen kann man, näherungsweise, durch endlich viele Zylinderscheiben der Breite $\Delta x$ ersetzen.
+
+#### Rotation um die y-Achse
+
+Über einem Intervall $[c, d]$ ist eine stetige Funktion $f(x)$ gegeben. Der Graph der Funktion erzeugt bei Rotation um die y-Achse einen Rotationskörper. Diesen kann man, näherungsweise, durch endlich viele Zylinderscheiben der Breite $\Delta x$ ersetzen.
 
 
-   1. Beispiel: **Volumen einer Kugel**
-   2. Beispiel: **Volumen einer regelmäßigen vierseitigen Pyramide**
-2. Rotationsvolumen
+## Rotation um die x-Achse
 
-   1. Rotationskörper entstehen, wenn ein Kurvenstück um eine Achse, im Allgemeinen die x- bzw. y-Achse, die beide in der selben Ebene liegen, gedreht wird.
+Das Volumen $V$ eines Rotationskörpers, der durch Rotation des Graphen der Funktion $f(x)$ über dem Intervall $[a, b]$ um die x-Achse entsteht, berechnet sich durch:
+
+$$
+V = \int_a^b \pi [f(x)]^2 \, dx
+$$
+
+## Rotation um die y-Achse
+
+Das Volumen $V$ eines Rotationskörpers, der durch Rotation des Graphen der Funktion $f(y)$ über dem Intervall $[c, d]$ um die y-Achse entsteht, berechnet sich durch:
+
+$$
+V = \int_c^d \pi [f(y)]^2 \, dy
+$$
+
+
+## Herleitung der Längenberechnung
+
+Die Bogenlänge eines Funktionsgraphen $f(x)$ im Intervall $[a, b]$ wird wie folgt hergeleitet:
+
+Man betrachtet ein kleines Stück des Graphen zwischen $x$ und $x + \Delta x$. Die Länge dieses Stücks ist näherungsweise:
+
+$$
+\Delta s \approx \sqrt{(\Delta x)^2 + (\Delta y)^2}
+$$
+
+wobei $\Delta y = f(x + \Delta x) - f(x)$.
+
+Für sehr kleine $\Delta x$ gilt:
+
+$$
+\Delta s \approx \sqrt{1 + \left(\frac{\Delta y}{\Delta x}\right)^2} \cdot \Delta x
+$$
+
+Im Grenzfall ($\Delta x \to 0$) ergibt sich das Integral:
+
+$$
+s = \int_a^b \sqrt{1 + [f'(x)]^2} \, dx
+$$
